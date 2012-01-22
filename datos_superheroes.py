@@ -6,7 +6,6 @@ import MySQLdb
 
 conn = MySQLdb.connect (host = "localhost", user = "root", db = "prueba")
 
-# create the animal table and populate it
 
 
 cursor = conn.cursor ()
